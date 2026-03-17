@@ -1,0 +1,15 @@
+XPATH
+Traversing - Forward and Backward Traversing--
+Forward -> //div/input[1] - form parent to child
+Backward -> accessing parent element through the child - (/.. or //input/..)    it will access parent of input.
+ex. //td[text()='Cantrell']/..//td[6]
+
+
+steps--
+1. identify static element
+2. move to common parent
+3. fetch the dynamic element
+
+siblings-child of common parent
+1. Following sibling - //td[text()='Dhurandhar 2']//following-sibling::td[2] - give 2nd following of Dhurandhar 2
+2. Preceding Sibling -  //td[text()='Dhurandhar 2']//preceding-sibling::td[2]
