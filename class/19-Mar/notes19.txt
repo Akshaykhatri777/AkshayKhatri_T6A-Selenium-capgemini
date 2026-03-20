@@ -1,0 +1,7 @@
+get_attribute method fetch the value of the attribute.
+
+is_displayed() - checks only visibility
+
+is_enabled() - checks is it ready for interaction with visibility
+
+is_selected() - to check checkbox or radio button is selected or not
