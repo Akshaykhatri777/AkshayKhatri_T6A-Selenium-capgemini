@@ -1,0 +1,13 @@
+Action Chains Class--
+  -Create object
+  -Store action
+  -Perform-- perform() method is required otherwise it will only store action
+
+action = ActionChains()   creating object
+
+click and hold
+
+
+Current_window_handle -
+window_handle
+switch.to.window(-)
