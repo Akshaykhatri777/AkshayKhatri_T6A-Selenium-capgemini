@@ -1,0 +1,11 @@
+FRAMES--
+Frames are html page inside another html page - <iframe> tag
+if element is in iframe or inside frame it will give 'no such element exception'
+
+Frames can  switch by 3 ways -
+By index  - driver.switch_to.frame(index)
+By name/id - driver.switch_to.frame("n3") , here name = 'n3' is attribute of iframe tag , id='page3'
+
+Switch frame and going back is possible by 2 ways -
+By parent frame - driver.switch_to.parent_frame()
+By default - driver.switch_to.default_content()
