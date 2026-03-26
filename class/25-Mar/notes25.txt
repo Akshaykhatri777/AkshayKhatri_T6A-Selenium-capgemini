@@ -1,0 +1,5 @@
+Assert - wec can compare expected result with actual result.
+
+syntax-- assert condition , message if condition fails.
+if condition fails then it will not execute further code
+
