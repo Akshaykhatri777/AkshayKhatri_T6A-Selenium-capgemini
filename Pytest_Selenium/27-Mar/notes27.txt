@@ -1,0 +1,15 @@
+Pytest is unit testing framework.
+The rules for pytest-
+file name, class name, function names must start with ' test_ '
+Class name must start with Test
+
+when we follow this rule pytest will automatically recognize the function or classes following the rule,
+so without giving function call we can execute the test function, and without creating a object we can execute test class.
+
+-v verbose give the detail description of the code
+-s scripting give the output of all the print statement.
+
+Pytest cannot recognize the function which are not following the rules.
+
+if you make object and call function the script will run twice.
+
