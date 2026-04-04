@@ -4,7 +4,7 @@ payload = {
 "id": 65,
   "category": {
     "id": 0,
-    "name": "animal"
+    "name": "aniimal"
   },
   "name": "dogesh",
   "photoUrls": [
